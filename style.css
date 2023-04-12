@@ -47,13 +47,16 @@ body {
   padding-left: 7.2rem;
   display: flex;
   align-items: center;
-  gap: 3.2rem;
+  gap: 6rem;
 }
 
+ul :nth-child(4) {
+  display: none;
+}
 .navbar-links {
   display: flex;
   list-style-type: none;
-  gap: 3.2rem;
+  gap: 6rem;
   font-size: 2.4rem;
   line-height: 2.4rem;
   font-weight: 400;
@@ -69,6 +72,11 @@ body {
   border-bottom: 2px solid white;
 }
 
+.active {
+  font-weight: 700;
+  border-bottom: 2px solid white;
+}
+
 h1 {
   font-weight: 700;
   font-size: 5.2rem;
@@ -78,14 +86,14 @@ h1 {
 
 h2 {
   font-weight: 700;
-  font-size: 5.2rem;
+  font-size: 6.4rem;
   line-height: 125%;
   color: #e1e1e6;
 }
 
 p {
   color: #e1e1e6;
-  font-size: 1.8rem;
+  font-size: 2.4rem;
   line-height: 160%;
 }
 
@@ -100,6 +108,7 @@ p {
   cursor: pointer;
   margin: 3.4rem auto 0;
   transition: scale 0.3s;
+  text-decoration: none;
 }
 
 .button-know-more:hover {

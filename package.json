@@ -1,0 +1,23 @@
+{
+  "name": "spa-universe",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000S\u0000P\u0000A\u0000-\u0000U\u0000n\u0000i\u0000v\u0000e\u0000r\u0000s\u0000e\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/celiofarroco/SPA-Universe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/celiofarroco/SPA-Universe/issues"
+  },
+  "homepage": "https://github.com/celiofarroco/SPA-Universe#readme",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
