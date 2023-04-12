@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url(./images/mountains-universe-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: "Roboto", sans-serif;
+}
+
+#app {
+  display: flex;
+  flex: 1;
+}
+
+.content {
+  text-align: center;
+  flex: 1;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  padding-top: 4rem;
+  padding-left: 7.2rem;
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.navbar-links {
+  display: flex;
+  list-style-type: none;
+  gap: 3.2rem;
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+  font-weight: 400;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-links a:hover {
+  font-weight: 700;
+  border-bottom: 2px solid white;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 5.2rem;
+  line-height: 125%;
+  color: white;
+}
+
+.button-know-more {
+  padding: 1.2rem 3.2rem;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: white;
+  cursor: pointer;
+  margin: 3.4rem auto 0;
+  transition: scale 0.3s;
+}
+
+.button-know-more:hover {
+  scale: 1.05;
+}
