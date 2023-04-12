@@ -12,7 +12,7 @@
       rel="stylesheet"
     />
   </head>
-  <body>
+  <body class="background">
     <nav class="navbar">
       <img src="./images/logo.svg" alt="" />
       <ul class="navbar-links">
@@ -39,9 +39,35 @@
       }
 
       function handle() {
-        const { pathname } = window.location;
-        console.log(pathname);
+        const pathname = window.location.pathname;
+        const route = routes[pathname] || routes[404];
+
+        let backgroundImg;
+
+        if (pathname === "/") {
+          backgroundImg = "url(./images/mountains-universe-1.png)";
+        } else if (pathname === "/universe") {
+          console.log("oi");
+          backgroundImg = "url(./images/mountains-universe-2.png)";
+        } else if (pathname === "/exploration") {
+          backgroundImg = "url(./images/mountains-universe-3.png)";
+        } else {
+          backgroundImg = "url(./images/mountains-universe-1.png)";
+        }
+
+        let background = document.querySelector(".background");
+
+        background.style.backgroundImage = backgroundImg;
+
+        fetch(route)
+          .then((data) => data.text())
+          .then((html) => {
+            document.querySelector("#app").innerHTML = html;
+          });
       }
+
+      handle();
+      window.onpopstate = () => handle();
     </script>
   </body>
 </html>

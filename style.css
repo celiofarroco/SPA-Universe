@@ -33,6 +33,15 @@ body {
   flex-direction: column;
 }
 
+.main-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.6rem;
+  margin: 0 10rem;
+  max-width: clamp(80rem, 5rem + 30vw, 80rem);
+}
+
 .navbar {
   padding-top: 4rem;
   padding-left: 7.2rem;
@@ -65,6 +74,19 @@ h1 {
   font-size: 5.2rem;
   line-height: 125%;
   color: white;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 5.2rem;
+  line-height: 125%;
+  color: #e1e1e6;
+}
+
+p {
+  color: #e1e1e6;
+  font-size: 1.8rem;
+  line-height: 160%;
 }
 
 .button-know-more {
