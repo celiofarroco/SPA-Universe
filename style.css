@@ -50,9 +50,6 @@ body {
   gap: 6rem;
 }
 
-ul :nth-child(4) {
-  display: none;
-}
 .navbar-links {
   display: flex;
   list-style-type: none;
