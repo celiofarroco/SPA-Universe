@@ -19,3 +19,6 @@ O projeto SPA Universe utiliza as seguintes tecnologias:
 - JavaScript: Para a lógica de programação, manipulação do DOM e controle das rotas;
 - HTML: Para a estruturação do conteúdo web;
 - CSS: Para a estilização e layout da aplicação.
+
+![image](https://user-images.githubusercontent.com/68011048/232851754-3e406fa7-0003-4aeb-b9a2-b344d26ecc0d.png)
+
